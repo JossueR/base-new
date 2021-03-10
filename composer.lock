@@ -1,0 +1,63 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "dee022e53ca8c827eaf5a7d3eb8d8e43",
+    "packages": [
+        {
+            "name": "sysmyapp.com/handlers-framework",
+            "version": "v0.1-alpha",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JossueR/HandlersFramework.git",
+                "reference": "752ba4a2d5dff022292f1485a4ec6848f86e3ec4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JossueR/HandlersFramework/zipball/752ba4a2d5dff022292f1485a4ec6848f86e3ec4",
+                "reference": "752ba4a2d5dff022292f1485a4ec6848f86e3ec4",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-mysqli": "*",
+                "ext-simplexml": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Handlers\\": "src/Handlers"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "jossue",
+                    "email": "jossue.rodriguez@gmail.com"
+                }
+            ],
+            "description": "Framework php ligero MVC para construcción de APIS RESTFULL y aplicaciones web en php",
+            "support": {
+                "issues": "https://github.com/JossueR/HandlersFramework/issues",
+                "source": "https://github.com/JossueR/HandlersFramework/tree/v0.1-alpha"
+            },
+            "time": "2021-03-10T02:27:00+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "sysmyapp.com/handlers-framework": 15
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}

@@ -1,0 +1,15 @@
+{
+    "name": "jossue.o/new-base",
+    "description": "Estructura basica de proyectos",
+    "type": "project",
+    "license": "MIT",
+	"authors": [
+        {
+            "name": "jossue",
+            "email": "jossue.rodriguez@gmail.com"
+        }
+    ],
+    "require": {
+        "sysmyapp.com/handlers-framework": "v0.1-alpha"
+    }
+}
