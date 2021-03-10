@@ -9,6 +9,11 @@
             "email": "jossue.rodriguez@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "myapp\\": "private/components"
+        }
+    },
     "require": {
         "sysmyapp.com/handlers-framework": "v0.1-alpha"
     }
