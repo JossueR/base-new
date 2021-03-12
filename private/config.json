@@ -1,0 +1,20 @@
+{
+  "APP_CONTENT_BODY": "",
+  "APP_DEFAULT_LIMIT_PER_PAGE": "15",
+  "PATH_ROOT": "/",
+  "PATH_PRIVATE": "",
+  "APP_LANG": "es",
+  "APP_MODAL_HANDLER": "",
+  "APP_CONTENT_TITLE": "",
+  "CONF_PERMISSION_CHECK": "",
+  "APP_DEFAULT_HANDLER": "base",
+  "APP_DEFAULT_ACTION_PARAM": "do",
+  "APP_ENABLED_LANG": ["es","en"],
+
+  "DB": {
+    "server":"localhost",
+    "bd_name":"bd",
+    "user":"root",
+    "pass":""
+  }
+}

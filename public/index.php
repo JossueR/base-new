@@ -3,16 +3,14 @@
 require_once '../vendor/autoload.php';
 
 
-
 use Handlers\components\ConfigParams;
 
 
-ConfigParams::$APP_LANG = "es";
-ConfigParams::$APP_DEFAULT_HANDLER = "test";
+ConfigParams::loadConfigJson("../private/config.json");
 
-\Handlers\data_access\SimpleDAO::connect("localhost","sys_warzone","root","");
 
 if(!\Handlers\components\XHandler::exec("myapp")){
-    header("location:" . ConfigParams::$APP_DEFAULT_HANDLER);
+
+    header("location:" . ConfigParams::$PATH_ROOT . ConfigParams::$APP_DEFAULT_HANDLER);
 
 }

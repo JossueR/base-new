@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dee022e53ca8c827eaf5a7d3eb8d8e43",
+    "content-hash": "bea1b5fe8902865644e1f230e45e3d61",
     "packages": [
         {
             "name": "sysmyapp.com/handlers-framework",
-            "version": "v0.1-alpha",
+            "version": "v0.2-alpha",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JossueR/HandlersFramework.git",
-                "reference": "752ba4a2d5dff022292f1485a4ec6848f86e3ec4"
+                "reference": "6bfb347ac8ec04d29e2f4c8d1544e0420faf677b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JossueR/HandlersFramework/zipball/752ba4a2d5dff022292f1485a4ec6848f86e3ec4",
-                "reference": "752ba4a2d5dff022292f1485a4ec6848f86e3ec4",
+                "url": "https://api.github.com/repos/JossueR/HandlersFramework/zipball/6bfb347ac8ec04d29e2f4c8d1544e0420faf677b",
+                "reference": "6bfb347ac8ec04d29e2f4c8d1544e0420faf677b",
                 "shasum": ""
             },
             "require": {
@@ -44,9 +44,9 @@
             "description": "Framework php ligero MVC para construcción de APIS RESTFULL y aplicaciones web en php",
             "support": {
                 "issues": "https://github.com/JossueR/HandlersFramework/issues",
-                "source": "https://github.com/JossueR/HandlersFramework/tree/v0.1-alpha"
+                "source": "https://github.com/JossueR/HandlersFramework/tree/v0.2-alpha"
             },
-            "time": "2021-03-10T02:27:00+00:00"
+            "time": "2021-03-10T22:00:51+00:00"
         }
     ],
     "packages-dev": [],
