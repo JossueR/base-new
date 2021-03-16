@@ -4,27 +4,29 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bea1b5fe8902865644e1f230e45e3d61",
+    "content-hash": "bb52cbdc76e731f08c71b22f2cdae7ea",
     "packages": [
         {
             "name": "sysmyapp.com/handlers-framework",
-            "version": "v0.2-alpha",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JossueR/HandlersFramework.git",
-                "reference": "6bfb347ac8ec04d29e2f4c8d1544e0420faf677b"
+                "reference": "afe465e376185c4d63600d81f8dad0c3d9b1e90e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JossueR/HandlersFramework/zipball/6bfb347ac8ec04d29e2f4c8d1544e0420faf677b",
-                "reference": "6bfb347ac8ec04d29e2f4c8d1544e0420faf677b",
+                "url": "https://api.github.com/repos/JossueR/HandlersFramework/zipball/afe465e376185c4d63600d81f8dad0c3d9b1e90e",
+                "reference": "afe465e376185c4d63600d81f8dad0c3d9b1e90e",
                 "shasum": ""
             },
             "require": {
+                "ext-curl": "*",
                 "ext-json": "*",
                 "ext-mysqli": "*",
                 "ext-simplexml": "*"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -44,16 +46,16 @@
             "description": "Framework php ligero MVC para construcción de APIS RESTFULL y aplicaciones web en php",
             "support": {
                 "issues": "https://github.com/JossueR/HandlersFramework/issues",
-                "source": "https://github.com/JossueR/HandlersFramework/tree/v0.2-alpha"
+                "source": "https://github.com/JossueR/HandlersFramework/tree/main"
             },
-            "time": "2021-03-10T22:00:51+00:00"
+            "time": "2021-03-16T19:19:53+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "sysmyapp.com/handlers-framework": 15
+        "sysmyapp.com/handlers-framework": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
