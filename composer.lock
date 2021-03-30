@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/JossueR/HandlersFramework.git",
-                "reference": "afe465e376185c4d63600d81f8dad0c3d9b1e90e"
+                "reference": "9024a4322e1fb796a1dfc4a03433512778d5da01"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JossueR/HandlersFramework/zipball/afe465e376185c4d63600d81f8dad0c3d9b1e90e",
-                "reference": "afe465e376185c4d63600d81f8dad0c3d9b1e90e",
+                "url": "https://api.github.com/repos/JossueR/HandlersFramework/zipball/9024a4322e1fb796a1dfc4a03433512778d5da01",
+                "reference": "9024a4322e1fb796a1dfc4a03433512778d5da01",
                 "shasum": ""
             },
             "require": {
@@ -48,7 +48,7 @@
                 "issues": "https://github.com/JossueR/HandlersFramework/issues",
                 "source": "https://github.com/JossueR/HandlersFramework/tree/main"
             },
-            "time": "2021-03-16T19:19:53+00:00"
+            "time": "2021-03-30T15:39:50+00:00"
         }
     ],
     "packages-dev": [],
